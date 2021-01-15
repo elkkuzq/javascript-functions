@@ -29,7 +29,7 @@ const App = () => {
 
   return(
   <div>
-    <p>Hello World</p>
+    <p>Hello World first javascript project</p>
     <Hello name = "javascript" age = {2021 - 1995}/>
     <Hello name = {nimi} age = {ika}/>
     <Kertoja ekaluku = {luku1} tokaluku = {luku2}/>
