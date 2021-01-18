@@ -1,21 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const Hello = (props) => {
+const Hello = ({name, age}) => {
   return(
     <div>
       <p>
-        Hey {props.name}, you are {props.age} years old
+        Hey {name}, you are {age} years old
         </p>
     </div>
   )
 }
 
-const Kertoja = (props) => {
+const Kertoja = ({ekaluku, tokaluku}) => {
   return(
     <div>
       <p>
-        luku {props.ekaluku} kerrottuna luvulla {props.tokaluku} on {props.ekaluku*props.tokaluku}
+        luku {ekaluku} kerrottuna luvulla {tokaluku} on {ekaluku*tokaluku}
       </p>
     </div>
   )
