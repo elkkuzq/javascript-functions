@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const Hello = (props) => {
+const Hello = ({name, age}) => {
   return(
     <div>
       <p>
-        Hey {props.name}, you are {props.age} years old
+        Hey {name}, you are {age} years old
         </p>
     </div>
   )
